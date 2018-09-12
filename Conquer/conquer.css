@@ -1,0 +1,159 @@
+#navbarNav {
+margin-left: 32%;
+margin-right: 25%;
+height: 60px;
+}
+li{
+  display: inline;
+  border: .5px solid;
+  border-color:#303847  ;
+  text-align: center;
+  padding: 5px;
+  font-size:22px;
+  margin: 5px;
+
+}
+li:hover{
+  background-color:#9d9d9d;
+}
+a{
+  color: white;
+}
+a:hover{
+  text-decoration:none;
+  color: white;
+}
+
+.img1{
+   background-image:url("bg-1.jpg");
+   height:500px;
+   /* parallax scroll effect */
+   position: relative;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.text{
+  position: absolute;
+  top: 270px;
+  left:620px;
+  text-align: center;
+}
+h1{font-size: 60px;
+color: white;}
+h3{color: white;}
+#but{
+  background-color: Green;
+  color: white;
+  padding:10px;
+  border-radius:10px;
+}
+#but1{
+  background-color: blue;
+  color: white;
+  padding:10px;
+  border-radius:10px;
+  text-align: center;
+}
+#but2{
+  background-color: red;
+  color: white;
+  padding:10px;
+  border-radius:10px;
+}
+.text-jumbo{
+  background-color: #F2F2F2;
+  padding-bottom:30px;
+}
+p{
+  text-align:left;
+}
+.design-content{
+  background: #f2f2f2;
+  padding-bottom: 15px;
+  text-align: center;
+}
+/* #ima{
+  width: 100%;
+} */
+.img2{
+  background-image:url("bg-2.jpg");
+  height:400px;
+    /* parallax scroll effect */
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services{
+  width: 800px;
+  position: absolute;
+  text-align: center;
+  top:1900px;
+  left:25%;
+  color: white;
+}
+.row{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#ima2{
+
+}
+.image{
+  width: 100%;
+  background-image: url("bg-3.jpg");
+  height: 500px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-details{
+  position: absolute;
+  backface-visibility: visible;
+  background-color: inherit;
+  top: 3380px;
+  left:400px;
+  width: 700px;
+  text-align: center;
+}
+.details{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 500px;
+
+}
+input{
+  background: rgba(242, 242, 242, 0.4);
+  border-radius: 5px;
+}
+.blog-content {
+  background: #F2F2F2;
+  padding-bottom:25px;
+  max-width: 555px;
+  margin: 0 auto;
+}
+#blog-area {
+    margin: 60px 0px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  border:none;
+}
+.ser-content{
+  background: #f2f2f2;
+  padding-bottom: 25px;
+
+  margin: 0 auto;
+}
+.cont{
+  background: #F2F2F2;
+  padding-bottom: 25px;
+}
